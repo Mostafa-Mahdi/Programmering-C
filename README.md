@@ -1,5 +1,5 @@
-# Programmering-C
- Dette er mit Programmerings portofolio fra 2021-2022
+# Programmering C
+ Dette er mit Programmerings portfolio fra 2021-2022
  Portofolien vil blive opdateret hver gang jeg uploader nyt kode.
 
 # Fagtermer
