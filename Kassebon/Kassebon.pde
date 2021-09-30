@@ -8,7 +8,6 @@ void setup(){
   noLoop();
 }
 
-
 class Vare { 
     String vareNavn;
     int antal;
@@ -57,8 +56,8 @@ void draw(){
   
   // Header af kvittering
   println("Mostafas Kiosk");
-  
-  float totalPris;
+  println("------------------");
+  float totalPris = 0;
   // declare total pris 
   for(Vare vare:indkobskurv ){ 
     vare.beregnPris(); // Beregn priser
@@ -66,6 +65,7 @@ void draw(){
     totalPris = totalPris + vare.belobMedMoms;
   }
   // Beregn total pris
-  print("Subtotal: " + subTotal(totalPris));
-  print("Total: " + totalPris);
+  println("------------------");
+  println("Subtotal: " + subTotal(totalPris));
+  println("Total: " + totalPris);
 }  
