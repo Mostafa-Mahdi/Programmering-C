@@ -30,26 +30,42 @@ class Vare {
 
     }
     
-    public float subTotal(int pris){
-      // Return price without Danish VAT
-      return pris * 0.8;
-    }
-    
 
 }
 
 
+public float subTotal(float pris){
+      // Return price without Danish VAT
+      return pris * 0.8;
+}
+
 void draw(){
+  
+  // Definere arraylist
   ArrayList<Vare> indkobskurv = new ArrayList<Vare>();
+  
+  
+  // lav objekter statisk for nu
   Vare chips = new Vare("Kims Bacon Chips", 12.99, 2);
-  Vare dip = new Vare("Sour Cream & Onion dip", 6.99, 2);
-  Vare soda = new Vare("Freeway Sodavand", 12.99, 2);
+  Vare dip = new Vare("Sour Cream & Onion dip", 6.99, 1);
+  Vare soda = new Vare("Freeway Sodavand", 12.99, 1);
+  
+  // tilføj til indkøbskurv
   indkobskurv.add(chips);  
   indkobskurv.add(dip);  
   indkobskurv.add(soda);  
-  chips.beregnPris();
+  
+  // Header af kvittering
   println("Mostafas Kiosk");
-  for(Vare vare:indkobskurv ){   
-    print(vare.vareNavn + " | " + vare.belobMedMoms + " kr");   
+  
+  float totalPris;
+  // declare total pris 
+  for(Vare vare:indkobskurv ){ 
+    vare.beregnPris(); // Beregn priser
+    println(vare.vareNavn + " | " + vare.belobMedMoms + " kr");
+    totalPris = totalPris + vare.belobMedMoms;
   }
+  // Beregn total pris
+  print("Subtotal: " + subTotal(totalPris));
+  print("Total: " + totalPris);
 }  
