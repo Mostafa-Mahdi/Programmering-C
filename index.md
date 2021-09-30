@@ -1,5 +1,8 @@
 ## Programmering C 2021-2022
-Der læres Java som er udviklet af Oracle. Jeg har tidligere erfaring med begyndersproget Python, basal C# & PHP, så her vil jeg beskrive min læringsoplevelse.
+Der læres Java som er udviklet af Oracle. Jeg har tidligere erfaring med begyndersproget Python, basal C# & PHP, så her vil jeg beskrive min læringsoplevelse med Java.
+
+## Undervisningsforløb
+* [x] Introduktion til det binære talsystem
 
 ## Faglige mål🙏
 * [x] Læse enkle programmer og redegøre for deres funktionsmåde og anvendelsesmuligheder
@@ -24,6 +27,9 @@ Se [forklaringer af kode her.](https://processing.org/tutorials)
 * [x] [Højhat](https://github.com/Mostafa-Mahdi/Programmering-C/tree/main/H%C3%B8jhat)
 * [x] [Kassebon (Mangler Canvas)](https://github.com/Mostafa-Mahdi/Programmering-C/tree/main/Kassebon)
 
-### Spørgsmål eller kontakt
+## Noter for Progammering C
+Du kan finde mine noter for faget [her](https://github.com/Mostafa-Mahdi/Programmering-C/wiki).
 
+### Spørgsmål eller kontakt
 Har du spørgsmåle til mit kode eller mit portefølje kan du kontakte mig på UDDATA+. Læs evt. wikien først.
+Vil du tilføje noter eller rettelser, så lav en PR.
