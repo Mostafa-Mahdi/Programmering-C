@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Programmering C 2021-2022
 
-You can use the [editor on GitHub](https://github.com/Mostafa-Mahdi/Programmering-C/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Faglige mål🙏
+- [x] Læse enkle programmer og redegøre for deres funktionsmåde og anvendelsesmuligheder
+̶- [x] Rette og tilpasse enkle programmer
+̶- [] Anvende eksisterende programdele og biblioteksmoduler i arbejdet med at programmere et fungerende system
+̶- [] Demonstrere systematik i programmeringsprocessen
+̶- [] Løse en enkel problemstilling gennem udviklingen af et program bl.a. i samspil med andre fag
+̶- [] Anvende grundlæggende konstruktioner i et programmeringssprog
+̶- [x] Demonstrere viden om fagets identitet og metoder.
 
-### Markdown
+## Nuværende IDE
+Der bruges [Processing 4](https://processing.org/download) i nuværende undervisning.
+Se [eksempler af kode her.](https://processing.org/examples)
+Se [forklaringer af kode her.](https://processing.org/tutorials)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Spørgsmål eller kontakt
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mostafa-Mahdi/Programmering-C/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Har du spørgsmåle til mit kode eller mit portefølje kan du kontakte mig på UDDATA+. Læs evt. wikien først.
