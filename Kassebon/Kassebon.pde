@@ -1,45 +1,55 @@
 // Pseudekode
-
-
-int belobUdenMoms = 100;
-float belobMedMoms = 0;
-String navn = "Jens";
+//int belobUdenMoms = 100;
+//float belobMedMoms = 0;
+//String navn = "Jens";
 
 void setup(){
-
+  size(400, 600);
+  noLoop();
 }
 
 
-class vare { 
+class Vare { 
     String vareNavn;
     int antal;
     float belobPerVare;
     float belobUdenMoms;
     float belobMedMoms;
    
+   
+   // Definere vare
+   public Vare(String vareNavn, float belobPerVare, int antal){
+    this.vareNavn = vareNavn;
+    this.belobPerVare = belobPerVare;
+    this.antal = antal;
+   }
     
-    public void beregnPris(float belobPerVare, int antal){   
-      belobMedMoms = beregnMoms(belobUdenMoms * antaly);
-      
+    public void beregnPris(){   
+      this.belobUdenMoms = this.belobPerVare * this.antal;
+      this.belobMedMoms = this.belobUdenMoms * 1.25;
+
     }
     
-    public float subTotal(int price){
+    public float subTotal(int pris){
       // Return price without Danish VAT
-      return price * 0.8;
+      return pris * 0.8;
     }
     
-    public float beregnMoms(int belobUdenMoms){
-      // Return price with DK VAT added ontop
-      return belobUdenMoms * 1.25;
-    }
 
 }
 
 
-
-
-void drawReceipt(String navn, int, string)
-{
-  
-  
-}
+void draw(){
+  ArrayList<Vare> indkobskurv = new ArrayList<Vare>();
+  Vare chips = new Vare("Kims Bacon Chips", 12.99, 2);
+  Vare dip = new Vare("Sour Cream & Onion dip", 6.99, 2);
+  Vare soda = new Vare("Freeway Sodavand", 12.99, 2);
+  indkobskurv.add(chips);  
+  indkobskurv.add(dip);  
+  indkobskurv.add(soda);  
+  chips.beregnPris();
+  println("Mostafas Kiosk");
+  for(Vare vare:indkobskurv ){   
+    print(vare.vareNavn + " | " + vare.belobMedMoms + " kr");   
+  }
+}  
