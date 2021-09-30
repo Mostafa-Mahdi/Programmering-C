@@ -12,6 +12,11 @@ Der læres Java som er udviklet af Oracle. Jeg har tidligere erfaring med begynd
 
 # Undervisningsforløb
 * [x] Introduktion til det binære talsystem
+* [ ] Programmering intro
+* [ ] Java programmering
+* [ ] ROBO Code Battle
+* [ ] OOP
+* [ ] Eksamensprojekt
 
 # Faglige mål🙏
 * [x] Læse enkle programmer og redegøre for deres funktionsmåde og anvendelsesmuligheder
