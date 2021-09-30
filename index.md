@@ -1,5 +1,5 @@
 ## Programmering C 2021-2022
-Der læres Java som er udviklet af Oracle. Jeg har tidligere erfaring med begyndersproget Python, basal C# & PHP, så her vil jeg beskrive min læringsoplevelse med Java.
+Der læres Java som er udviklet af Oracle. Jeg har rigtig meget erfaring med begyndersproget Python, så her vil jeg beskrive min læringsoplevelse med at lære Java syntaksen.
 # Indholdsfortegnelse
 - [Programmering C 2021-2022](#programmering-c-2021-2022)
 - [Undervisningsforløb](#undervisningsforløb)
