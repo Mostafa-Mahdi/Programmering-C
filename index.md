@@ -40,5 +40,5 @@ Se [forklaringer af kode her.](https://processing.org/tutorials)
 Du kan finde mine noter for faget [her](https://github.com/Mostafa-Mahdi/Programmering-C/wiki).
 
 ### Spørgsmål eller kontakt
-Har du spørgsmåle til mit kode eller mit portefølje kan du kontakte mig på UDDATA+. Læs evt. wikien først.
+Har du spørgsmål til mit kode eller mit portefølje kan du kontakte mig på UDDATA+. Læs evt. wikien først.
 Vil du tilføje noter eller rettelser, så lav en PR.
