@@ -45,15 +45,11 @@ void draw(){
   
   
   // lav objekter statisk for nu
-  Vare chips = new Vare("Kims Bacon Chips", 12.99, 2);
-  Vare dip = new Vare("Sour Cream & Onion dip", 6.99, 1);
-  Vare soda = new Vare("Freeway Sodavand", 12.99, 1);
+  indkobskurv.add(new Vare("Kims Bacon Chips", 12.99, 2));
+  indkobskurv.add(new Vare("Sour Cream & Onion dip", 6.99, 1));
+  indkobskurv.add(new Vare("Freeway Sodavand", 12.99, 1));
   
-  // tilføj til indkøbskurv
-  indkobskurv.add(chips);  
-  indkobskurv.add(dip);  
-  indkobskurv.add(soda);  
-  
+
   // Header af kvittering
   println("Mostafas Kiosk");
   println("------------------");
