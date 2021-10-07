@@ -9,7 +9,7 @@ void setup(){
   size(400, 600);
   noLoop();
 }
-
+// det er måske en god ide at ligge Class ud i en fane!
 class Vare { 
     String vareNavn;
     int antal;
@@ -51,13 +51,18 @@ void draw(){
   indkobskurv.add(new Vare("Sour Cream & Onion dip", 6.99, 1));
   indkobskurv.add(new Vare("FreeWay Sodavand", 12.99, 1));
   
+// kunne man ikke lave det som en funktion???
+// og så skal du lige briuge canvas i stedet for consol!
 
   // Header af kvittering
   println("Mostafas Kiosk");
   println("------------------");
+  // det er Haram at deklarere variabler midt i koden!!
   float totalPris = 0;
+  
+  
   // declare total pris 
-  for(Vare vare:indkobskurv ){ 
+    for(Vare vare:indkobskurv ){ 
     vare.beregnPris(); // Beregn priser
     println(vare.antal + "x " + vare.vareNavn + " | " + vare.belobMedMoms + " kr");
     totalPris = totalPris + vare.belobMedMoms;
