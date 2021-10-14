@@ -1,39 +1,15 @@
-// Pseudekode
+// Pseudokode
 //int belobUdenMoms = 100;
 //float belobMedMoms = 0;
 //String navn = "Jens";
 
 //todo lav canvas.
 
+
 void setup(){
   size(400, 600);
   noLoop();
 }
-// det er måske en god ide at ligge Class ud i en fane!
-class Vare { 
-    String vareNavn;
-    int antal;
-    float belobPerVare;
-    float belobUdenMoms;
-    float belobMedMoms;
-   
-   
-   // Definere vare
-   public Vare(String vareNavn, float belobPerVare, int antal){
-    this.vareNavn = vareNavn;
-    this.belobPerVare = belobPerVare;
-    this.antal = antal;
-   }
-    
-    public void beregnPris(){   
-      this.belobUdenMoms = this.belobPerVare * this.antal;
-      this.belobMedMoms = this.belobUdenMoms * 1.25;
-
-    }
-    
-
-}
-
 
 public float subTotal(float pris){
       // Return price without Danish VAT
@@ -41,7 +17,6 @@ public float subTotal(float pris){
 }
 
 void draw(){
-  
   // Definere arraylist
   ArrayList<Vare> indkobskurv = new ArrayList<Vare>();
   
