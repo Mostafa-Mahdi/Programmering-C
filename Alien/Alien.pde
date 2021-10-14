@@ -87,7 +87,7 @@ void drawBodyAndLegs(int x, int y, String name){
     strokeWeight(1);
   }
 }
-
+//manglende beskrivelse
 void frameFunction(int x, int y ){
   rect(10+x,10+y,280,280);
 }
