@@ -30,16 +30,14 @@ for(int i = 0; i < 5; i++){
 for(int i = 10; i <= 30; i++){
   println(i);
 }
-
+*/
+/*
 // While
-boolean found = false;
 int i = 0;
 
-while(!found){
-  if(i <= 30){
+while(i <= 30){
+  if(i <= 30 && i >= 20 ){
     println(i);
-  }else{
-   found = true; 
   }
   i++;
 }
