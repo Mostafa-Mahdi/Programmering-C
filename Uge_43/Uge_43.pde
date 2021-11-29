@@ -75,7 +75,6 @@ print(number_of_e);
 */
 
 
-
 // Opgave 4
 /*
 
